@@ -162,53 +162,27 @@ nav{
     color:#384354; 
 }
 
-.client{
-    height: 65px;
-    width: 260px;
-    border:2px solid red;
-}
-.client h2{
-    font-size:21px;
-    font-weight: bold;
-    
-    
-}
-.client p{
-  
-    font-weight: 400;
-}
-.website{
-    height: 65px;
-    width: 260px;
-    border:2px solid green;
-}
-.website h4{
-  
-    font-size:21px;
-    font-weight: bold;
-   
-}
-.website p{
-  
-    font-weight: 400;
-    
-}
+
 .clwb{
     float: left;
-    display: block;
     height: 130px;
     width: 260px;
      border:2px solid black;
     margin-left:410px;
+     
+}
+.clwb h2{
+    font-size: 21px;
+   
+}
+clwd p{
+   
 }
 .nazv{
-    float: left;
-    display: block;
     height: 130px;
     width: 870px;
     margin-left: 670px;
     margin-top:635px;
-    float:none;
     border:2px solid black;
 }
 .nazv h3{
