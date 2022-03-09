@@ -26,14 +26,12 @@ nav{
     text-transform:uppercase;
 } 
 .main{
- 
     width: 1920px;
     height:1067px ;
-  background:url(../img/I2.png)100% 100% no-repeat,url(../img/pg.jpg);
+    background:url(../img/boy2.png)100% 100% no-repeat,url(../img/pg.jpg);
    
 }
 .title_container{
-    
     float:left;
     margin:432px 0px 0px 404px;
     color:#2c384a;
@@ -108,13 +106,12 @@ nav{
         url(../img/chert.jpg)950px 152px no-repeat,url(../img/pg3.jpg)8px 0px;
 }
 .skills h2{
-   font-size:35px; 
-   font-weight: bold;
+    font-size:35px; 
+    font-weight: bold;
     color:#384354;
     padding-top:100px;
     padding-left:875px;
     letter-spacing:0px;
-    
 }
 .var{
     margin-left:360px;
@@ -138,13 +135,13 @@ nav{
     color:#3f495a;
 }
 .keys{
- height:1242px;
- width:1980px;
- background: url(../img/chert.jpg)no-repeat 966px 54px,url(../img/screen.jpg) no-repeat 420px 187px ;
+    height:1242px;
+    width:1980px;
+    background: url(../img/chert.jpg)no-repeat 966px 54px,url(../img/screen.jpg) no-repeat 420px 187px ;
 }
 .keys h2{
     font-size:35px; 
-   font-weight: bold;
+    font-weight: bold;
     color:#384354;
     margin-top: 105px;
     margin-left:940px;
@@ -161,37 +158,228 @@ nav{
 .opis{
     color:#384354; 
 }
-
-
 .clwb{
     float: left;
     height: 130px;
     width: 260px;
-     border:2px solid black;
-    margin-left:410px;
-     
+    margin-left:430px;
 }
-.clwb h2{
+.clwb h4{
     font-size: 21px;
-   
+    font-weight: 600;
 }
-clwd p{
-   
+.clwb p{
+    padding-top:7px;
+    padding-bottom: 9px;
 }
 .nazv{
     height: 130px;
-    width: 870px;
-    margin-left: 670px;
-    margin-top:635px;
-    border:2px solid black;
+    width: 890px;
+    margin-left: 690px;
+    margin-top:660px;
 }
-.nazv h3{
-   
-    font-size:18px;
-    font-weight: bold;
-    
+.nazv h3{ 
+    font-size:21px;
+    font-weight: bold;  
 }
 .nazv p{
+    font-size:18px;
     text-align:left;
     width:854px;
+    line-height:normal;
+}
+.keys input{
+    margin-left:430px;
+    text-align: center;
+    background:#63b5ae;
+    color:white;
+    height:45px;
+    width:200px;
+    font-size:20px;
+    border-radius:6px;
+    font-weight: 500;
+}
+.price{
+    height:770px;
+    width:1920px;
+    background:url(../img/lin.jpg)500px 500px no-repeat;
+} 
+.price h2{
+    color:#1c2534;
+    font-size:40px;
+    font-weight: bold;
+    margin-left:800px;
+}
+.tip h4{
+    color:#1c2534;
+    font-size:25px;
+    margin-left:500px;
+    margin-top:48px;
+    font-weight: bold;
+}
+.tip select{
+    width:895px;
+    height:56px;
+    background: #eeeeee;
+    margin-left:500px;
+    margin-top:10px;
+}
+.diz h4{
+    color:#1c2534;
+    font-size:25px;
+    margin-left:500px;
+    margin-top:48px;
+    font-weight: bold;
+}
+.diz select{
+    width:895px;
+    height:56px;
+    background: #eeeeee;
+    margin-left:500px;
+    margin-top:10px;
+}
+.adapt h4{
+    color:#1c2534;
+    font-size:25px;
+    margin-left:500px;
+    margin-top:48px;
+    font-weight: bold;
+}
+.adapt select{
+    width:895px;
+    height:56px;
+    background: #eeeeee;
+    margin-left:500px;
+    margin-top:10px;
+}
+.rez p{
+    color:#1c2534;
+    font-size:18px;
+    font-weight: bold;
+    margin-top:22px;
+}
+.rez{
+    margin-left:500px;
+    margin-top:60px;
+}
+.statistic{
+    background: url(../img/chert.jpg)940px 158px no-repeat,
+        url(../img/smile.png)no-repeat 495px 245px,
+        url(../img/skobk.png)no-repeat 788px 250px,
+        url(../img/gal.png)no-repeat 1090px 250px,
+        url(../img/kubok.png)no-repeat 1393px 245px,
+        url(../img/pg4.jpg);
+    height:499px;
+    width: 1920px;
+}
+.statistic h2{
+    font-size:35px; 
+    font-weight: bold;
+    color:#384354;
+    padding-top:100px;
+    padding-left:780px;
+}
+.statistic li{
+    float:left;
+    margin-right:150px;
+}
+.statmenu{
+    margin-left:433px;
+    margin-top:190px;
+    font-weight: 700;
+    color:#323e4f;
+}
+.statmenu h3{
+    font-size:30px;
+    font-weight:800;
+    text-align: center;
+    padding-bottom: 27px;
+}
+.otz{
+    width: 1920px;
+    height:594px;
+    background:url(../img/chert.jpg)no-repeat 940px 163px,
+        url(../img/point_orange.png)no-repeat 951px 497px ,
+        url(../img/point.png)no-repeat 976px 497px ,
+        url(../img/point.png)no-repeat 1001px 497px ,
+        url(../img/klient.png)no-repeat 930px 228px;
+}
+.otz h2{
+    font-size:35px;
+    padding-left:898px;
+    padding-top:107px;
+    font-weight: bold;
+    color:#263244;
+}
+.otz p{
+    text-align: center;
+    margin-top:233px;
+    color::#263244;
+    font-weight:600;
+}
+.kont{
+    background: url(../img/chert.jpg)925px  158px no-repeat, 
+        url(../img/geo.png)no-repeat 708px 256px,
+        url(../img/konvert.png)no-repeat 945px 256px,
+        url(../img/telefon.png)no-repeat 1192px 256px,
+        url(../img/pg6.jpg);
+    height: 808px;
+    width: 1920px;
+    color:white;
+}
+.kont h2{
+    font-size:35px;
+    font-weight:bold;
+    padding-top:105px;
+    padding-left: 818px;
+}
+.kont p{
+    margin-top:46px;
+    text-align: center;
+}
+.dann li{
+    float:left;
+    margin-right: 90px;
+    width: 160px;
+    text-align: center;
+}
+.dann ul{
+    margin-top: 89px;
+    margin-left:629px;
+}
+.message h3{
+    font-size:22px;
+    margin-top: 150px;
+    text-align: center;
+    width: 300px;
+    margin-left: 830px;
+}
+.nt input{
+    height: 34px;
+    width: 352px;
+    background: #d8dbe1;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+.nt{
+    margin-left:570px;  
+}
+.textar textarea{
+    background: #d8dbe1;
+    width: 732px;
+    height: 94px;
+    margin-left:593px;
+    margin-top:10px;
+}
+.subm input{
+    height: 46px;
+    width: 125px;
+    text-align: center;
+    border:2px  solid #fff;
+    background: none;
+    border-radius: 6px;
+    color:#fff;
+    font-size:18px;
+    margin-left: 896px;
+    margin-top:28px;
 }
