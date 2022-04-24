@@ -5,6 +5,7 @@ nav{
     width: 1920px;
     height: 60px;
     background: #344051;
+    position:fixed;
 }
 .logo{
     color:#fff;
@@ -12,6 +13,10 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float:left;
+    -webkit-animation: comming 2s forwards;
+    -o-animation:comming 2s forwards;
+    animation:comming 2s forwards;
+    opacity: 0;
 }
 .menu{
     float:left;
@@ -24,6 +29,11 @@ nav{
     margin-right:40px;
     font-size: 18px;
     text-transform:uppercase;
+    -webkit-animation: menu 0.5s forwards ease;
+    -o-animation: menu 0.5s forwards ease;
+    animation:menu 0.5s forwards ease;
+    opacity: 0;
+    
 } 
 .main{
     width: 1920px;
@@ -36,6 +46,11 @@ nav{
     margin:432px 0px 0px 404px;
     color:#2c384a;
     text-align: center;
+     -webkit-animation: title 2s forwards;
+    -o-animation:title 2s forwards;
+    animation:title 2s forwards;
+    opacity: 0;
+    animation-delay: 1s;
 }
 .title_container h1{
     font-size: 80px;
@@ -76,7 +91,6 @@ nav{
     margin-left: 592px;
     color:#3f495a;
     }
-
 .text p{
     margin-top:42px;
 }
@@ -94,7 +108,6 @@ nav{
     margin-left: 305px;
     background:url(../img/str.jpg)12px 8px no-repeat;
 }
-
 .skills{
     height:523px;
     width:1920px;
@@ -103,7 +116,8 @@ nav{
         url(../img/znak.png)no-repeat 790px 278px,
         url(../img/rak.png)no-repeat 1120px 275px,
         url(../img/grom.png)no-repeat 1445px 276px,
-        url(../img/chert.jpg)950px 152px no-repeat,url(../img/pg3.jpg)8px 0px;
+        url(../img/chert.jpg)no-repeat 950px 152px,
+        url(../img/pg3.jpg) fixed 8px 0px;
 }
 .skills h2{
     font-size:35px; 
@@ -198,6 +212,8 @@ nav{
     font-size:20px;
     border-radius:6px;
     font-weight: 500;
+    transition: all 0.1s;
+    transform:scale(1);
 }
 .price{
     height:770px;
@@ -268,7 +284,7 @@ nav{
         url(../img/skobk.png)no-repeat 788px 250px,
         url(../img/gal.png)no-repeat 1090px 250px,
         url(../img/kubok.png)no-repeat 1393px 245px,
-        url(../img/pg4.jpg);
+        url(../img/pg4.jpg) fixed no-repeat ;
     height:499px;
     width: 1920px;
 }
@@ -383,3 +399,190 @@ nav{
     margin-left: 896px;
     margin-top:28px;
 }
+.menu li a{
+    transition: all 0.1s;
+    color:white;
+    transform:scale(1);
+    display:inline-block;
+}
+.menu li a:visited{
+    color:#fff;
+}
+.menu li a:hover{
+    color:#e3942d;
+    transform:scale(1.1);
+}
+.menu li a:active{
+    transform: scale(0.9)
+}
+.logo a{
+    transition: all 0.1s;
+    color:white;
+    transform:scale(1);
+    display:inline-block;
+}
+.logo a:visited{
+    color:#fff;
+}
+.logo a:hover{
+    color:#e3942d;
+    transform:scale(1.1);
+}
+.logo a:active{
+    transform: scale(1)
+}
+.title_container input{
+    transition: all 0.1s;
+    transform:scale(1);
+}
+.title_container input:hover{
+    color:white;
+    background:#6d7682;
+    transform:scale(1.1);
+}
+.title_container input:active{
+    transform:scale(1);
+}
+@keyframes comming{
+    from{
+        opacity: 0;
+        margin-left:-400px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+@keyframes menu{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top:0;
+    }
+}
+.menu li:nth-child(1){
+ animation-delay: 0.4s;
+}
+.menu li:nth-child(2){
+ animation-delay: 0.8s;
+}
+.menu li:nth-child(3){
+ animation-delay: 1.2s;
+}
+.menu li:nth-child(4){
+ animation-delay: 1.6s;
+}
+.menu li:nth-child(5){
+ animation-delay: 2s;
+}
+.menu li:nth-child(6){
+ animation-delay: 2.4s;
+}
+@keyframes title{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.text input{
+    transition: all 0.1s;
+    transform:scale(1);
+}
+.text input:hover{
+    color:white;
+    background:url(../img/strelka.png)12px 8px no-repeat,#6d7682;
+    transform:scale(1.1);
+    
+}
+.text input:active{
+    transform:scale(1);
+}
+.keys input:hover{
+    background:#9ecdc9;
+}
+.keys input:active{
+    transform:scale(1.1);
+}
+.subm input:hover{
+    color:black;
+    background:#d2d6dc;
+    border:none;
+}
+.subm input:active{
+ transform:scale(1.1);
+}
+
+
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc9d0;
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #337ab7;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-bounce {
+
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+
